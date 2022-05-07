@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+    color: #010101;
+    /*transition animation, when all transitions, use this transition duration and effect; this happens when background
+    color changes */
+    transition: all 0.5s ease;
+  }
+  
+  header {
+    min-height: 5.5rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .intro_text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .intro_text p {
+    font-size: 22px;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  section img {
+    border-radius: 10px;
+  }
+  section .page2 {
+    text-align: center;
+    width: 60%;
+  }
+  section .page2 h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .bg_active {
+    color: white;
+    background-color: #010101;
+  }
+
+  .bg_active_new {
+    color: white;
+    background-color: blue;
+  }
